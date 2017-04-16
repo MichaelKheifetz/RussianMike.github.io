@@ -61,7 +61,7 @@ X_scaled = pd.DataFrame(X_scaled, columns = HR.columns)
 
 So the purpose of this very important step is to check the relationship between your features and your target variable that you will end up using in building a classification/regression model. This is best done by visualization of the relationship between different features. The kind of visualizations you use is a combination of your personal preferences, what particular dataset you are working with and what kind of audience you will be presenting your results to (some graphs are better for non-technical audiences. For example, histograms and bar charts are easy to follow for the non-technical audience vs boxplots which should be only presented to technical audiences, etc). Some really common visualizations are histograms, bar plots, scatter plots, correlation heatmaps and many others. The main purpose of this step is to see if you can detect any really significant correlations and potential insights in your data that you can than present and potentially provide recommendations on. This step is also very helpful for Predictive Modeling because it will help you give a visual grasp of which features are very important and which are not (and it what ways, e.g, positively vs negative correlated). You can than think about how to feature engineer your model more effectively to produce better accuracy scores. Here is one of the scatterplots I did in my project to get a better visual grasp of how different variables relate to one another:
 
-![Satisfaction(/images/satisfaction_vs_evaluation.png)
+![Satisfaction](/images/satisfaction_vs_evaluation.png)
 
 # Predictive Modeling (Machine Learning)
 
